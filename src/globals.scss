@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+body {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+ 
+  background-color: #5734b4;
+}
