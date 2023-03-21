@@ -14,7 +14,6 @@ export const App = () => {
     const { data } = await axios.get(
       `https://viacep.com.br/ws/${postalCode}/json/`
     )
-    console.log(data)
     setLocalization(data)
   }
 
